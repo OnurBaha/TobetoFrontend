@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# Tobeto Education Platform - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tobeto is an educational platform designed to provide users with seamless access to courses, assignments, exams, and live lessons. This project is the frontend clone of Tobeto, developed to offer a modern, responsive, and user-friendly interface for both students and educators.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- **User Interface Development**:  
+  Built a dynamic and interactive user interface using **React**, **TypeScript**, **HTML**, **CSS**, and **Bootstrap** to ensure a responsive and scalable design.
 
-### `npm start`
+- **State Management with Redux**:  
+  Managed application state with **Redux Toolkit** and handled asynchronous actions using **Redux Thunk**. This ensures efficient state handling across the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Form Management with Formik**:  
+  Integrated **Formik** for form handling, enabling smooth management of form data with validation and submission processes.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Rich Text Editing with EditorJs**:  
+  Implemented **EditorJs** for a rich text editing experience, allowing users to create and format content easily within the platform.
 
-### `npm test`
+- **Component Design with Ant Design**:  
+  Used **Ant Design** to create a professional and consistent design for React components, ensuring a sleek and intuitive UI.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Calendar Integration with FullCalendar**:  
+  Added **FullCalendar** for robust calendar management functionality, allowing users to track and manage schedules effectively.
 
-### `npm run build`
+- **Data Visualization with React Heat Map**:  
+  Integrated **React Heat Map** to visualize data efficiently, providing users with intuitive insights into learning patterns and progress.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Client-Server Communication with Axios**:  
+  Utilized **Axios** for handling HTTP requests, ensuring seamless communication between the frontend and backend services.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **TypeScript for Enhanced Code Quality**:  
+  Used **TypeScript** to introduce static typing, improving code readability, maintainability, and reducing bugs by catching errors early in the development process.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **React**: For building the user interface and components.
+- **TypeScript**: For adding static typing to JavaScript, improving code quality and tooling.
+- **Redux Toolkit**: For state management across the application.
+- **Redux Thunk**: For handling asynchronous actions.
+- **Formik**: For managing forms and handling form validation.
+- **EditorJs**: For rich text editing features.
+- **Ant Design**: For UI components and styling.
+- **FullCalendar**: For integrating calendar functionality.
+- **React Heat Map**: For visualizing data insights.
+- **Axios**: For managing client-server communication via HTTP requests.
+- **HTML, CSS, Bootstrap**: For structuring and styling the user interface.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
